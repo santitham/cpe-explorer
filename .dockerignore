@@ -1,0 +1,9 @@
+data
+.env
+*.zip
+cpe-explorer-offline.html
+README.md
+admin.sh
+.git
+.github
+deploy

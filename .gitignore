@@ -1,0 +1,6 @@
+.env
+data/*
+!data/.keep
+*.zip
+cpe-explorer-offline.html
+node_modules/

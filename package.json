@@ -1,0 +1,10 @@
+{
+  "name": "cpe-explorer",
+  "version": "1.0.0",
+  "description": "CPE Explorer — KMUTT Computer Engineering course explorer game with a self-hosted scoreboard",
+  "private": true,
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED"
+}
