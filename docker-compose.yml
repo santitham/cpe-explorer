@@ -3,7 +3,7 @@ services:
     build:
       context: .
       args:
-        NODE_IMAGE: ${NODE_IMAGE:-node:20-alpine}
+        NODE_IMAGE: ${NODE_IMAGE:-node:22-alpine}
     image: cpe-explorer:latest
     container_name: cpe-explorer
     restart: unless-stopped

@@ -1,4 +1,4 @@
-ARG NODE_IMAGE=node:20-alpine
+ARG NODE_IMAGE=node:22-alpine
 FROM ${NODE_IMAGE}
 LABEL org.opencontainers.image.source="https://github.com/santitham/cpe-explorer" \
       org.opencontainers.image.title="CPE Explorer" \

@@ -72,7 +72,7 @@ Open `http://<server>:8080`. Scores are saved in `./data/scores.json` on the hos
 - Stop: `docker compose down` · Logs: `docker compose logs -f`
 - Change the port: set `PORT=80` (or any) in `.env`, then `docker compose up -d` again.
 - If the build fails with `429 Too Many Requests` from Docker Hub, add
-  `NODE_IMAGE=mirror.gcr.io/library/node:20-alpine` to `.env` and run `docker compose up -d --build`.
+  `NODE_IMAGE=mirror.gcr.io/library/node:22-alpine` to `.env` and run `docker compose up -d --build`.
 - The container runs the server as an unprivileged user and makes `./data` writable for it on start-up.
 
 ### B. Node.js without Docker
